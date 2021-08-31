@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'James Reed | Front End Web Developer', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -10,48 +10,48 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'James Reed',
+  subtitle: 'Front-End Web Developer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'photo.jpeg',
+  paragraphOne: "I'm James, a web developer from Selsey (a small town near Portsmouth) that is based in London. I'm passionate about tech and I love the problem-solving side of web development and seeing my ideas turned into reality. I also find learning new technologies and implementing them for new projects massively rewarding.",
+  paragraphTwo: "The projects I'm working on right now are mostly React led. My days at the moment are spent learning Firebase and how to successfully integrate it into an application. My long-term goal is to become an effective full stack developer, able to efficiently turn great ideas into working products.",
+  paragraphThree: 'In my spare time I play tennis, learn German, and love watching football matches.',
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'weatherapp.png',
+    title: 'Weather-app',
+    info: 'An application that shows the current weather conditions from a location entered by the user',
+    info2: 'Javascript, OpenWeatherAPI, Webpack',
+    url: 'https://reed756.github.io/weather-app/',
+    repo: 'https://github.com/reed756/weather-app', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'cvmaker.png',
+    title: 'CV Maker',
+    info: 'An application using create-react-app that allows the user to enter their general, work, and education information to see a preview of how this would look as a CV.',
+    info2: 'React',
+    url: 'https://reed756.github.io/cv-project/',
+    repo: 'https://github.com/reed756/cv-project', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'memorycardgame.png',
+    title: 'Memory Card Game',
+    info: "A game created using create-react-app where the user can't click the same meme twice and see's how high a score they can get. Utilises React Hooks and Imgflip's meme generator RESTful JSON API",
+    info2: 'React, Meme Generator API',
+    url: 'https://reed756.github.io/memory-card/',
+    repo: 'https://github.com/reed756/memory-card', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +59,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'reedandj1@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,28 +67,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/james-reed-a6b413111/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/reed756',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
