@@ -18,9 +18,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'photo.jpeg',
-  paragraphOne: "I'm James, a web developer from Selsey (a small town near Portsmouth) that is based in London. I'm passionate about tech and I love the problem-solving side of web development and seeing my ideas turned into reality. I also find learning new technologies and implementing them for new projects massively rewarding.",
-  paragraphTwo: "The projects I'm working on right now are mostly React led. My days at the moment are spent learning Firebase and how to successfully integrate it into an application. My long-term goal is to become an effective full stack developer, able to efficiently turn great ideas into working products.",
-  paragraphThree: 'In my spare time I play tennis, learn German, and love watching football matches.',
+  paragraphOne:
+    "I'm James, a web developer from Selsey (a small town near Portsmouth) that is based in London. I'm passionate about tech and I love the problem-solving side of web development and seeing my ideas turned into reality. I also find learning new technologies and implementing them for new projects massively rewarding.",
+  paragraphTwo:
+    "The projects I'm working on right now are mostly React led. My days at the moment are spent learning Firebase and how to successfully integrate it into an application. My long-term goal is to become an effective full stack developer, able to efficiently turn great ideas into working products.",
+  paragraphThree:
+    'In my spare time I play tennis, learn German, and love watching football matches.',
   resume: '', // if no resume, the button will not show up
 };
 
