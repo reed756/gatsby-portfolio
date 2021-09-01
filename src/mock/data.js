@@ -24,7 +24,8 @@ export const aboutData = {
     "The projects I'm working on right now are mostly React led. My days at the moment are spent learning Firebase and how to successfully integrate it into an application. My long-term goal is to become an effective full stack developer, able to efficiently turn great ideas into working products.",
   paragraphThree:
     'In my spare time I play tennis, learn German, and love watching football matches.',
-  resume: '', // if no resume, the button will not show up
+  resume:
+    'https://www.canva.com/design/DAElBtxbSts/J0A1bcMx93gw95Uoe8WwJg/view?utm_content=DAElBtxbSts&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
