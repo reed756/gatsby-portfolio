@@ -44,7 +44,7 @@ export const projectsData = [
     img: 'cvmaker.png',
     title: 'CV Maker',
     info: 'An application using create-react-app that allows the user to enter their general, work, and education information to see a preview of how this would look as a CV.',
-    info2: 'React',
+    info2: 'React, React Hooks',
     url: 'https://reed756.github.io/cv-project/',
     repo: 'https://github.com/reed756/cv-project', // if no repo, the button will not show up
   },
@@ -53,7 +53,7 @@ export const projectsData = [
     img: 'memorycardgame.png',
     title: 'Memory Card Game',
     info: "A game created using create-react-app where the user can't click the same meme twice and see's how high a score they can get. Utilises React Hooks and Imgflip's meme generator RESTful JSON API",
-    info2: 'React, Meme Generator API',
+    info2: 'React, React Hooks, Meme Generator API',
     url: 'https://reed756.github.io/memory-card/',
     repo: 'https://github.com/reed756/memory-card', // if no repo, the button will not show up
   },
