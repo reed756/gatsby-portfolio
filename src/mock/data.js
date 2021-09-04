@@ -57,15 +57,15 @@ export const projectsData = [
     url: 'https://reed756.github.io/memory-card/',
     repo: 'https://github.com/reed756/memory-card', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'shopcart.png',
-    title: 'Shopping Cart',
-    info: 'An application that mimics a store web site where a user can go to either the homepage or store page and select items they wish to purchase which then populate a shopping cart.',
-    info2: 'React, FortniteAPI, react-router',
-    url: 'https://reed756.github.io/shopping-cart/',
-    repo: 'https://github.com/reed756/shopping-cart', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'shopcart.png',
+  //   title: 'Shopping Cart',
+  //   info: 'An application that mimics a store web site where a user can go to either the homepage or store page and select items they wish to purchase which then populate a shopping cart.',
+  //   info2: 'React, FortniteAPI, react-router',
+  //   url: 'https://reed756.github.io/shopping-cart/',
+  //   repo: 'https://github.com/reed756/shopping-cart', // if no repo, the button will not show up
+  // },
 ];
 
 // CONTACT DATA
