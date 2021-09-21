@@ -39,7 +39,7 @@ const Header = () => {
                 {ctaOne || 'Know more'}
               </Link>
             </span>
-            <span className="cta-btn cta-btn--hero" style={{ marginLeft: '5px' }}>
+            <span className="cta-btn cta-btn--hero" style={{ marginLeft: '20px' }}>
               <Link to="projects" smooth duration={1000}>
                 {ctaTwo || 'Projects'}
               </Link>
