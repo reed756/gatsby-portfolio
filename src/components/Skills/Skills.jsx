@@ -14,10 +14,10 @@ const Skills = () => {
             <ListGroup.Item className="single-skill">HTML</ListGroup.Item>
             <ListGroup.Item className="single-skill">CSS</ListGroup.Item>
             <ListGroup.Item className="single-skill">JavaScript</ListGroup.Item>
-            <ListGroup.Item className="single-skill">React (including Context API)</ListGroup.Item>
+            <ListGroup.Item className="single-skill">React</ListGroup.Item>
             <ListGroup.Item className="single-skill">SASS</ListGroup.Item>
             <ListGroup.Item className="single-skill">git</ListGroup.Item>
-            <ListGroup.Item className="single-skill">SQL</ListGroup.Item>
+            <ListGroup.Item className="single-skill">Webpack</ListGroup.Item>
             <ListGroup.Item className="single-skill">npm/yarn</ListGroup.Item>
             <ListGroup.Item className="single-skill">Gatsby</ListGroup.Item>
             <ListGroup.Item className="single-skill">Material UI</ListGroup.Item>
