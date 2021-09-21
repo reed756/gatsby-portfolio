@@ -12,7 +12,8 @@ export const heroData = {
   title: '',
   name: 'James Reed',
   subtitle: 'Front-End Web Developer',
-  cta: '',
+  ctaOne: 'Know More',
+  ctaTwo: 'Projects',
 };
 
 // ABOUT DATA
