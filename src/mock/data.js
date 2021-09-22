@@ -33,12 +33,12 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'weatherapp.png',
-    title: 'Weather-app',
-    info: 'An application that shows the current weather conditions from a location entered by the user',
-    info2: 'Javascript, OpenWeatherAPI, Webpack',
-    url: 'https://reed756.github.io/weather-app/',
-    repo: 'https://github.com/reed756/weather-app', // if no repo, the button will not show up
+    img: 'material-ui.png',
+    title: 'Material-UI Site',
+    info: 'A software website built using React, React Hooks, Material-UI, and hosted on Netlify',
+    info2: 'React, React Hooks, Material-UI, Netlify',
+    url: 'https://silly-spence-81e478.netlify.app/',
+    repo: 'https://github.com/reed756/material-ui-site', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
